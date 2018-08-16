@@ -1,3 +1,5 @@
+# Python - The Hard Way - Exercise 3
+
 print "I will now count my chickens:"
 
 print "Hens", 25 + 30 / 6                   # 25 + (30 / 6) = 30
@@ -13,7 +15,7 @@ print 1 + 4
 print 5 % 2
 print 1 - 1
 print 0 / 4
-print 0 + 6  
+print 0 + 6
 
 
 print "Is it true that 3 + 2 < 5 - 7?"      # 5 < 7 -> nope, False
