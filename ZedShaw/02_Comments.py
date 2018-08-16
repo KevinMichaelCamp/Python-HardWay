@@ -1,4 +1,4 @@
-# Python - The Hard Way - Exercise 2
+# Python - The Hard Way - Exercise 2 - Comments
 
 # A comment, used to help read code later
 # the '#' is referred to as an octothorpe, pound, hash, or meshself.

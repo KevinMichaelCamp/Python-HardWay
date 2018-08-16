@@ -1,4 +1,4 @@
-# Python - The Hard Way - Exercise 3
+# Python - The Hard Way - Exercise 3 - Math
 
 print "I will now count my chickens:"
 

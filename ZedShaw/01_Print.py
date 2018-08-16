@@ -1,4 +1,4 @@
-# Python - The Hard Way - Exercise 1
+# Python - The Hard Way - Exercise 1 - Print
 
 print "Hello World"
 print "Hello Again"
