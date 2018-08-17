@@ -16,4 +16,4 @@ print "We can transport", carpool_capacity, "people today."
 print "We have", passengers, "to carpool today."
 print "We need to put", average_passengers_per_car, "in each car."
 
-print "Hey %s there." % "you"    #prints string without surrounding spaces
+print "Hey %s there." % "you"  # prints string without surrounding spaces

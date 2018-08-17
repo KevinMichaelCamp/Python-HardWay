@@ -1,9 +1,9 @@
 # Python - The Hard Way - Exercise 5 - Format Strings
 
 name = "Kevin Michael Camp"
-age = 38         #11.20.1979
-height = 75      #inches
-weight = 215     #lbs
+age = 38  # 11.20.1979
+height = 75  # inches
+weight = 215  # lbs
 eyes = 'Hazel'
 teeth = 'White'
 hair = 'Brown'
@@ -16,7 +16,8 @@ print "He's got %s eyes and %s hair." % (eyes, hair)
 print "His teeth are %s, now that he went to the dentist." % teeth
 
 # tricky line
-print "If I add %d, %d, and %d - I get %d." %(age, height, weight, age + height + weight)
+print "If I add %d, %d, and %d - I get %d." % (
+    age, height, weight, age + height + weight)
 
 print "I have %r hair and am %r inches tall." % (hair, height)
 

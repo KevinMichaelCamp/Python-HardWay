@@ -43,5 +43,5 @@ print fatter_cat
 # print "\xhh"                    # Character with hex value hh
 
 while True:
-    for i in ["/","-","|","\\","|"]:
+    for i in ["/", "-", "|", "\\", "|"]:
         print "%s\r" % i

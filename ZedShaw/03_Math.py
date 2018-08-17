@@ -22,7 +22,7 @@ print "Is it true that 3 + 2 < 5 - 7?"      # 5 < 7 -> nope, False
 
 print 3 + 2 < 5 - 7                         # False
 
-print "What is 3 + 2?", 3 + 2               #  5
+print "What is 3 + 2?", 3 + 2  # 5
 print "What is 5 - 7?", 5 - 7               # -2
 
 print "Oh, that's why it's false."
