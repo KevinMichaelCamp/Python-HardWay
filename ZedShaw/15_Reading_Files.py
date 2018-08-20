@@ -1,4 +1,4 @@
-# Python - The Hard Way - Exercise 14 - Reading Files
+# Python - The Hard Way - Exercise 15 - Reading Files
 
 # import argv (Argument Variable) from sys module (system)
 from sys import argv
