@@ -1,6 +1,6 @@
 # Python - The Hard Way - Exercise 19 - Functions & Variables
 
-# Define function - will be called 4 times using differen
+# Define function - will be called 4 times using different
 # input methods
 
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
