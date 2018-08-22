@@ -1,4 +1,4 @@
-# Python - The Hard Way - Exercise 17 - More Files
+# Python - The Hard Way - Exercise 17 - More Files - Copy
 from sys import argv
 #import exists
 from os.path import exists
