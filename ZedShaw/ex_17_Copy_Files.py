@@ -23,6 +23,6 @@ out_file.write(indata)
 
 print("Allright, all done.")
 
-#close both files
+# close both files
 out_file.close()
 in_file.close()

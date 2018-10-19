@@ -15,7 +15,7 @@ raw_input("?")
 print "Opening the file..."
 target = open(filename, 'w')
 
-#truncate (erase) file (not necessary with write mode)
+# truncate (erase) file (not necessary with write mode)
 print "Truncating the file.  Goodbye!"
 target.truncate()
 
@@ -26,7 +26,7 @@ line3 = raw_input("line 3: ")
 
 print "I am going to write these to the file."
 
-#cleaner code - use strings, formatting, and escapes to simplify to 1 line
+# cleaner code - use strings, formatting, and escapes to simplify to 1 line
 target.write("%s\n%s\n%s\n" % (line1, line2, line3))
 
 # target.write(line1)
