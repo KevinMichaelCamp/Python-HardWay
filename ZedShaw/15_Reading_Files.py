@@ -10,18 +10,18 @@ script, filename = argv
 txt = open(filename)
 
 # Read file (txt)
-print "Here's your file %r:" % filename
-print txt.read()
+print("Here's your file %r:" % filename)
+print(txt.read())
 
 # Use raw_input to input filename (txt)
-print "Type the filename again:"
-file_again = raw_input("~ ")
+print("Type the filename again:")
+file_again = input("~ ")
 
 # Open file
 txt_again = open(file_again)
 
 # Read file
-print txt_again.read()
+print(txt_again.read())
 
 # Close files
 txt.close

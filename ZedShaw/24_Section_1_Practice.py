@@ -1,9 +1,9 @@
 # Python - The Hard Way - Exercise 24 - More Practice
 
-print "Let's practice everything."
+print("Let's practice everything.")
 
 # Escapes for newlines and tabs
-print 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
+print('You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.')
 
 # Multiline text examples
 poem = """
@@ -14,13 +14,13 @@ nor comprehend passion from intuition
 and requires explanation
 \n\twhere there is none."""
 
-print "--------------------"
-print poem
-print "--------------------"
+print("--------------------")
+print(poem)
+print("--------------------")
 
 # variable setting with math and string formatting
 five = 10 - 2 + 3 - 6
-print "This should be five: %s" % five
+print("This should be five: %s" % five)
 
 # define funtion
 def secret_formula(started):
@@ -33,11 +33,11 @@ def secret_formula(started):
 start_point = 10000
 beans, jars, crates = secret_formula(start_point)
 
-print "With a starting point of: %d" % start_point
-print "We'd have %d beans, %d jars, and %d crates." % (beans, jars, crates)
+print("With a starting point of: %d" % start_point)
+print("We'd have %d beans, %d jars, and %d crates." % (beans, jars, crates))
 
 # call function another way
 start_point = start_point / 10
 
-print "We can also have that this way."
-print "We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point)
+print("We can also have that this way.")
+print("We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point))

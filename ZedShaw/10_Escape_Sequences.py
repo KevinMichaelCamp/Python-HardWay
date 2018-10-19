@@ -18,11 +18,11 @@ I'll do a list:
 \t* Catnip\n\t* Grass
 '''
 
-print tabby_cat
-print persian_cat
-print backslash_cat
-print fat_cat
-print fatter_cat
+print(tabby_cat)
+print(persian_cat)
+print(backslash_cat)
+print(fat_cat)
+print(fatter_cat)
 
 # All Python Escape Characters
 
@@ -44,4 +44,4 @@ print fatter_cat
 
 while True:
     for i in ["/", "-", "|", "\\", "|"]:
-        print "%s\r" % i
+        print("%s\r" % i)
