@@ -5,16 +5,23 @@ from sys import argv
 script, input_file = argv
 
 # define print function
+
+
 def print_all(f):
     print(f.read())
 
 # define rewind function
+
+
 def rewind(f):
     f.seek(0)
 
 # define print_a_line function
+
+
 def print_a_line(line_count, f):
     print(line_count, f.readline())
+
 
 # open input_file
 current_file = open(input_file)

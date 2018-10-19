@@ -3,15 +3,17 @@
 # Define function - will be called 4 times using different
 # input methods
 
+
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
-    print("You have %d cheese."% cheese_count)
+    print("You have %d cheese." % cheese_count)
     print("You have %d boxes of crackers." % boxes_of_crackers)
     print("Man, that's enough for a party!")
     print("Get a blanket.\n")
 
+
 # Direct input
 print("We can just give the function numbers directly:")
-cheese_and_crackers(20,30)
+cheese_and_crackers(20, 30)
 
 # Input using variables
 print("OR, we can use variables from our script:")
