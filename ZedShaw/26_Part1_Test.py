@@ -1,3 +1,6 @@
+# Python - The Hard Way - Exercise 26 - Part 1 Test
+
+
 def break_words(stuff):
     """This function will break up words for us."""
     words = stuff.split(' ')
