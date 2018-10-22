@@ -23,3 +23,27 @@ PHRASES = {
 }
 
 # Do the drill phases first
+
+PHASE_FIRST = False
+if len(sys.argv) == 2 and sys.argv[1] == "english":
+    PHRASE_FIRST = True
+
+# Load up the qords from the website
+
+for word in urlopen(WORD_URL).readlines():
+    WORDS.append(word.strip())
+
+def convert(snippet, phrase):
+    class_names = [w.capitalize() for w in random.sample(WORDS, snippet.count("%%%"))]
+    other_names = random.sample(WORDS, snippet.count("***"))
+    results = []
+    param_names = []
+
+    for i in range(0, snippet.count("@@@")):
+        param_count = random.randint(1,3)
+        param_names.append(', '.join(random.sample(WORDS, param_count)))
+
+    for sentence in snippet, phrase:
+        result = sentence[:]
+
+        # Fake class names
