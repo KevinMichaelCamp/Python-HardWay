@@ -1,5 +1,6 @@
 # Python - The Hard Way - Exercise 40 - Modules, Classes, & Objects
 
+
 class Song(object):
 
     def __init__(self, lyrics):
@@ -9,9 +10,11 @@ class Song(object):
         for line in self.lyrics:
             print(line)
 
+
 happy_bday = Song(["Happy Birthday to you", "Happy Birthday to you"])
 
-bulls_on_parade = Song(["They rally around the family", "With pockets full of shells"])
+bulls_on_parade = Song(["They rally around the family",
+                        "With pockets full of shells"])
 
 happy_bday.sing_me_a_song()
 
