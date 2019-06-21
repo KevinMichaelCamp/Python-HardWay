@@ -30,4 +30,4 @@ for url in news_urls[:10]:
     nouns = [word for word in words if word.isalpha() and word[0] in string.ascii_uppercase]
     all_nouns += nouns
 
-print(Counter(all_nouns).most_common(100))
+print(Counter(all_nouns).most_common(1000))
