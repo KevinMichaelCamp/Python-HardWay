@@ -6,3 +6,4 @@ def iterateArray(arr):
 
 # Test Case
 iterateArray([2,5,-8,4,6])
+iterateArray(["My", "name", "is", "Kevin"])
