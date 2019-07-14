@@ -3,7 +3,7 @@
 def sigma(num):
     sigma = 0
 
-    for i in range(num, -1, -1):
+    for i in range(num + 1):
         sigma += i
 
     return sigma
