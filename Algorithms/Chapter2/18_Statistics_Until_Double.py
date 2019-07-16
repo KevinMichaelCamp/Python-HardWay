@@ -1,6 +1,7 @@
 # Implement a 20-sided die. Roll until you get a value twice in a row. Display number of rolls, min, max, and average.
 
 import random
+import time
 
 def twentySidedDie():
     return random.randint(1,20)
@@ -32,7 +33,6 @@ def twiceInaRow():
 
     print("Game Statistics:", '\n', '*'*25,'\n')
     print(rolls, '\n', "Rolls:", count, "Sum:", sum, "Average:", avg, "High Roll:", max, "Low Roll:", min)
-
 
 
 twiceInaRow()
