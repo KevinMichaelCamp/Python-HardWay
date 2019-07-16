@@ -3,7 +3,7 @@
 def removeAt(arr, index):
     pop = arr[index]
     arr = arr[:index] + arr[(index+1):]
-    return arr
+    return pop
 
 # Test Cases
 print(removeAt([1,2,3,4,5], 2))

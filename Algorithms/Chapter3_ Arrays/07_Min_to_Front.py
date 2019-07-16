@@ -3,7 +3,7 @@
 def removeAt(arr, index):
     pop = arr[index]
     arr = arr[:index] + arr[(index+1):]
-    return arr
+    return pop
 
 def insertAt(arr, index, value):
     arr = arr[:index] + [value] + arr[index:]
