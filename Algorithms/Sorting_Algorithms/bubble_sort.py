@@ -2,7 +2,9 @@
 
 def bubble_sort(arr):
     for j in range(len(arr) - 1):
+        print("j: ", j, "arr: ", arr)
         for i in range(len(arr) - 1 - j):
+            print("i: ", i, "arr: ", arr)
             if arr[i] > arr[i+1]:
                 arr[i], arr[i+1] = arr[i+1], arr[i]
     print('sorted array is ', arr)
