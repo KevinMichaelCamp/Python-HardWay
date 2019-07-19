@@ -1,7 +1,7 @@
 # Create a standalone function that accepts two arrays and combines their values sequentially into a new array, at alternating indices staring with the first array. Extra values from either array should be included afterward. Given [1,2] and [10,20,30,40], return new array containing [1,10,2,20,30,40].
 
 def zipIt(arr1, arr2):
-    newArr = []
+    new_array = []
 
     if len(arr1) >= len(arr2):
         longLen, shortLen = len(arr1), len(arr2)
@@ -11,13 +11,13 @@ def zipIt(arr1, arr2):
         longArr = arr2
 
     for i in range(shortLen):
-        newArr.append(arr1[i])
-        newArr.append(arr2[i])
+        new_array.append(arr1[i])
+        new_array.append(arr2[i])
 
     for j in range(shortLen, longLen):
-        newArr.append(longArr[j])
+        new_array.append(longArr[j])
 
-    return newArr
+    return new_array
 
 # Test Cases
 print(zipIt([1,2], [10,20,30,40]))

@@ -2,18 +2,18 @@
 
 def intermediateSums(arr):
     loops, remainder = divmod(len(arr), 10)
-    intSum = 0
+    intermediate_sum = 0
     j = 0
 
     while j < loops:
         for i in range(10+j):
-            intSum += arr[i]
-        arr.insert(10, intSum)
+            intermediate_sum += arr[i]
+        arr.insert(10, intermediate_sum)
         j += 1
 
 
-    remSum = sum(arr[(loops*10+loops):])
-    arr.insert((loops*10+loops+remainder), remSum)
+    remainder_sum = sum(arr[(loops*10+loops):])
+    arr.insert((loops*10+loops+remainder), remainder_sum)
 
     return arr
 
