@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "steadfast-icon-259221",
+  "private_key_id": "01afa19f6d3a6c2d6cfb046dce3a5729c39fdcf5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCg+CI0Gy6Qtr4s\ncNSu7NZw0v7QDTTB5N5VpWJoc28BYQ+xnkEG8NlOLEvAsWsqQeAbkHciSt2fRmDz\nAzbgg9AaRqveUNbRCzx1ace5GFyHNFT02C9VPLlNIqW18C9CY10kOXTaud19/Fsx\nhtlt5BwOH2LY5dcSVO2Tu0MDiR1+uA9EmDqRjRCZ3/PhHoErUm1GiY8KpBl/pXc1\nzfvnEMaPB0rK2Ku95KsL8Q8QRv2SXUku8KtVTZsxxWI5Eb69jHmCxWLMt7WBIvL0\nNa9I6c0fZdRiqtZ5NQtMgPf9CIPPxslnjbWO1qYtutwY3SWl2+pvTuOVx5RG1xLG\n3KQ+5LAnAgMBAAECggEAJLbz9jaM9Gz6C2Dg4dUbRDib7hBVDDSLkbVbML/DfekJ\nj1WtN0wQBIiN7rGI4+aKmz7kLWouCnoe+s6s4aCvAo9D/D0sAhox/AXYjBtGX4BM\nMFxuz14+VZ2ldk4GOXo4cF66jHkAUBATLMS5KxtwWrhF73rdB01fsuZvbosDszcj\ne+EaXM4kKKNxtcYyrajNXQxfE6Gep6NLzLQKgwgZ7g52SyAgWY95qewrbMU/q9Nh\nBF0CQiuaCmyNFY0VZa7GmAxtB5FoALZK8w+XJjZmZ69L1FY+N+VmFd0CNMH4l8Jd\naR6SDFKlO8GJ+EjWjuUKsnATKkz5pxZ5f0k/unWoYQKBgQDSIce+pnYclfXA5RBs\noYE5NDKhbWnLnxlwZSHGEJuka/VvaUPYUiTFbBI1l2i/w9QU3jfpMZtPbDhoCaYz\nzf+0/bHfmCVMnLf36WwZslM5bHvNDq61qSz3YU7Q/d5lpbhYctPGqFcrXxWMQMbP\nd20Dpb3Dq3FQ5h6WLtIQdBOeLQKBgQDEGyHClPioaFlFzWe+kW4YOi3kXbZlAo9k\nmOm9j3FH2IfQqtbfcuCEqsy9x8X7wBkMc0gXtxXlu/v2Yao99U0fYF/x1vQan85R\nRANutyttBt8B/bPhi/HqwqgvDMs3aaVngt9rUqd1oNZmWck4hg6Osy/jy+sxJ5YE\n4xMoPuhQIwKBgB5Nhsukn8XRjmYp4mt4AvWn5GFJMQePQxDlVLCGdpuIghV1/bW1\nat4Zjqqx0gZNjEkSHsf/QmF6vsuqEJDJ9UU5jKws+bwJobIbtF4kTEIstdHFe0Zx\nRi3Kl54l7iuEcYg3zviIEEIN7UKTmNgUZeEvxqTwFWBQPzrzN5Ht22JlAoGBAI0y\nh91FS8Bd2aFDouX4ak+xXCeoPdJ+xGYHH4zoAgVb53Yb+7hJS1Taca5Xb7qy9pYb\nTxYcMf0GnAUrDturiksEJjDHt1yQIYorsVj/M5o9r0YMuH62N4nzfArcaFlOjNR5\ny4nHqmEsXBK3pQU4qLSgWePniEENIpwEL1/z42sHAoGAF34iFW45TbnjBzpD4PeW\n6RbypnBGCKsrLpvQDSsjoYzr9Zz0jhM6YPgNdORRSeaEoB67qZTGpdDisZWzVGFP\nlhGKGjW2KUs74RcZ8S3HuLb+N1I3vhhUKSHt2FCm39RdT9mqUiX2D5wWKs2kx/as\nAhXNqJ0yExc2E4RN9lFDmLQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bigqueryowner@steadfast-icon-259221.iam.gserviceaccount.com",
+  "client_id": "106056882859414135323",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bigqueryowner%40steadfast-icon-259221.iam.gserviceaccount.com"
+}
